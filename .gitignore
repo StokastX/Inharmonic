@@ -1,0 +1,18 @@
+# Build output
+build/
+out/
+.vs/
+CMakeUserPresets.json
+
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+*.pyd
+*.so
+
+# Audio never goes in the repo
+*.wav
+*.flac
+*.aif
+*.aiff
