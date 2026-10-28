@@ -27,7 +27,8 @@ endif()
 # solver (inh::modal) and the offline FD reference (inh::fd) both build on it
 # and never on each other, so the reference stays independent of what it checks.
 add_library(inh STATIC
-    src/version.cpp)
+    src/version.cpp
+    src/string_description.cpp)
 add_library(inh::inh ALIAS inh)
 
 target_include_directories(inh PUBLIC include)

@@ -15,7 +15,8 @@ target_compile_definitions(doctest INTERFACE DOCTEST_CONFIG_USE_STD_HEADERS)
 
 add_executable(inh_tests
     main.cpp
-    test_version.cpp)
+    test_version.cpp
+    test_string_description.cpp)
 target_link_libraries(inh_tests PRIVATE
     inh::inh
     doctest)
